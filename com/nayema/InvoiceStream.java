@@ -1,13 +1,9 @@
 package com.nayema;
 
-// Yes, I did that, it's called "refactoring", it allows us to keep code organized.
-// That's why Java has package names, so that we can move things around and reference
-// other parts of code instead of keeping everything in one file.
 import com.nayema.models.Invoice;
 import java.util.*;
 import java.util.stream.Stream;
 
-// Here we have InvoiceStream, part of the package com.nayema because it is a main application file
 public class InvoiceStream {
     public static void main(String[] args) {
         ArrayList<Invoice> invoicelist;
